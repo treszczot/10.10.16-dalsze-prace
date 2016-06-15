@@ -3,3 +3,11 @@
 Wersja na serwisharris.azurewebsites.net
 dodana baza
 dodany sendgrid
+
+
+
+DO ZROBIENIA:
+
+1.	ZARZĄDZANIE UŻYTKOWNIKAMI
+2.	DODAWANIE ZGŁOSZENIA
+3.	WYGLĄD I KOMUNIKATY
