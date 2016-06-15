@@ -1,0 +1,5 @@
+﻿
+
+Wersja na serwisharris.azurewebsites.net
+dodana baza
+dodany sendgrid

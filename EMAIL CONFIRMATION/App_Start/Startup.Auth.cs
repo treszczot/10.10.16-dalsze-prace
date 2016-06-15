@@ -6,6 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using EMAIL_CONFIRMATION.Models;
+using EMAIL_CONFIRMATION;
 
 namespace EMAIL_CONFIRMATION
 {
