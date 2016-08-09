@@ -1,13 +1,13 @@
 ﻿@model System.Web.Mvc.HandleErrorInfo
 
 @{
-    ViewBag.Title = "Error";
+    ViewBag.Title = "Wielbłąd :()";
 }
-<h1 class="text-danger">Error.</h1>
+<h1 class="text-danger">Błąd</h1>
 @{
     if (String.IsNullOrEmpty(ViewBag.errorMessage))
     {
-        <h2 class="text-danger">An error occurred while processing your request.</h2>
+        <h2 class="text-danger">Wystąpił błąd podczas przetwarzania twojego żądania. Sprawdź swoje dane i spróbuj ponownie, jeżeli sytuacja się powtórzy skontaktuj się z Szefem lub Administratorem Serwisu.</h2>
     }
     else
     {

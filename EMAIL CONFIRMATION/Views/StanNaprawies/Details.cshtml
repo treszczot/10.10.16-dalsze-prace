@@ -1,0 +1,26 @@
+﻿@model EMAIL_CONFIRMATION.Models.StanNaprawy
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>StanNaprawy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.stanNaprawyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.stanNaprawyName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.stanNaprawyId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

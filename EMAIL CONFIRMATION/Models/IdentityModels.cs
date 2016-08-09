@@ -29,5 +29,7 @@ namespace EMAIL_CONFIRMATION.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<EMAIL_CONFIRMATION.Models.StanNaprawy> StanNaprawies { get; set; }
     }
 }

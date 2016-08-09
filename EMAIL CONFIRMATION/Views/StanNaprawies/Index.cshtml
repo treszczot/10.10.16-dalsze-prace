@@ -1,0 +1,33 @@
+﻿@model IEnumerable<EMAIL_CONFIRMATION.Models.StanNaprawy>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.stanNaprawyName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.stanNaprawyName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.stanNaprawyId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.stanNaprawyId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.stanNaprawyId })
+        </td>
+    </tr>
+}
+
+</table>

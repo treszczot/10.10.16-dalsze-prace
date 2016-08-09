@@ -15,14 +15,14 @@ namespace EMAIL_CONFIRMATION.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Serwis WZŁ nr2 - Czernica";
 
             return View();
         }
         [Authorize]
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Dane kontaktowe";
 
             return View();
         }

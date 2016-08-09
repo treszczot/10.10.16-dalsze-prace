@@ -29,7 +29,7 @@ namespace EMAIL_CONFIRMATION
             var myMessage = new SendGridMessage();
             myMessage.AddTo(message.Destination);
             myMessage.From = new System.Net.Mail.MailAddress(
-                                "millsoft@millsoft.pl", "Administrator Serwisu WZŁ2");
+                                "admin@serwisharris.pl", "Administrator Serwisu WZŁ2");
             myMessage.Subject = message.Subject;
             myMessage.Text = message.Body;
             myMessage.Html = message.Body;
